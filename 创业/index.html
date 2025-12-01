@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>现代化网页界面</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">新西兰旅游</div>
+            <ul class="nav-menu">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#gallery">美景</a></li>
+                <li><a href="#about">体验</a></li>
+                <li><a href="#services">服务</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">欢迎来到我们的网站</h1>
+            <p class="hero-subtitle">让我来给你介绍新西兰的风景</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">开始使用</button>
+                <button class="btn-secondary">了解更多</button>
+            </div>
+        </div>
+        <div class="hero-background" style="background-image: url('图片/皇后镇.png');">
+            <div class="gradient-overlay"></div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">新西兰美景</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="图片/皇后镇.png" alt="皇后镇">
+                    <div class="gallery-overlay">
+                        <h3>皇后镇</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="图片/皇后镇（夏）.jpg" alt="皇后镇夏季">
+                    <div class="gallery-overlay">
+                        <h3>皇后镇夏季</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="图片/tekapo星空.webp" alt="Tekapo星空">
+                    <div class="gallery-overlay">
+                        <h3>Tekapo星空</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="图片/tekapo鲁冰花.jpg" alt="Tekapo鲁冰花">
+                    <div class="gallery-overlay">
+                        <h3>Tekapo鲁冰花</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="图片/观鲸.jpg" alt="观鲸">
+                    <div class="gallery-overlay">
+                        <h3>出海观鲸</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="图片/雪山.jpg" alt="雪山">
+                    <div class="gallery-overlay">
+                        <h3>库克雪山</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="图片/日落.png" alt="日落">
+                    <div class="gallery-overlay">
+                        <h3>美丽日落</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="图片/三文鱼.jpg" alt="皇后镇风景">
+                    <div class="gallery-overlay">
+                        <h3>高山三文鱼场</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="about">
+        <div class="container">
+            <h2 class="section-title">特色体验</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <img src="图片/黑金鲍.jpeg" alt="黑金鲍" class="feature-image">
+                    <h3>新鲜海鲜</h3>
+                    <p>品尝新西兰最优质的海鲜，包括黑金鲍和岩龙虾</p>
+                </div>
+                <div class="feature-card">
+                    <img src="图片/观鲸.jpg" alt="观鲸" class="feature-image">
+                    <h3>观鲸体验</h3>
+                    <p>近距离观赏海洋巨兽，感受大自然的震撼</p>
+                </div>
+                <div class="feature-card">
+                    <img src="图片/tekapo星空.webp" alt="星空" class="feature-image">
+                    <h3>星空观赏</h3>
+                    <p>在Tekapo欣赏南半球最美丽的星空</p>
+                </div>
+                <div class="feature-card">
+                    <img src="图片/皇后镇（夏）.jpg" alt="皇后镇" class="feature-image">
+                    <h3>四季美景</h3>
+                    <p>体验皇后镇四季不同的迷人风光</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">旅游服务</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="图片/皇后镇3.png" alt="旅游规划" class="service-image">
+                    <h3>旅游规划</h3>
+                    <p>专业的旅游路线规划，带您深度体验新西兰美景</p>
+                    <a href="#" class="service-link">查看详情 →</a>
+                </div>
+                <div class="service-card">
+                    <img src="图片/岩龙虾.jpeg" alt="美食体验" class="service-image">
+                    <h3>美食体验</h3>
+                    <p>品尝新西兰特色海鲜和当地美食</p>
+                    <a href="#" class="service-link">查看详情 →</a>
+                </div>
+                <div class="service-card">
+                    <img src="图片/IMG_6981.jpg" alt="摄影服务" class="service-image">
+                    <h3>摄影服务</h3>
+                    <p>专业摄影师记录您在新西兰的美好时光</p>
+                    <a href="#" class="service-link">查看详情 →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">联系我们</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h4>📧 邮箱</h4>
+                        <p>Winstonoygy@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>📱 电话</h4>
+                        <p>+86 021 2208 399</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>📍 地址</h4>
+                        <p>基督城,新西兰</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="您的姓名" required>
+                    <input type="email" placeholder="您的邮箱" required>
+                    <textarea placeholder="您的消息" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Winston. version 1.0</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
